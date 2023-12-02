@@ -1,0 +1,28 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "012",
+    "3 5"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:slime_block"
+    },
+    "1": {
+      "item": "minecraft:netherite_block"
+    },
+    "2": {
+      "item": "minecraft:slime_block"
+    },
+    "3": {
+      "item": "minecraft:netherite_block"
+    },
+    "5": {
+      "item": "minecraft:netherite_block"
+    }
+  },
+  "result": {
+    "item": "hollow_stuff:armadura_de_slime_reforcada_helmet",
+    "count": 1
+  }
+}

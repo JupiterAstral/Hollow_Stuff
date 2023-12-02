@@ -1,0 +1,144 @@
+{
+  "mod_elements": [
+    {
+      "name": "ArmaduraDeSlimeReforcada",
+      "type": "armor",
+      "sortid": 7,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "armadura_de_slime_reforcada",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hollow_stuff/models/item/armadura_de_slime_reforcada_helmet.json",
+          "src/main/resources/assets/hollow_stuff/models/item/armadura_de_slime_reforcada_boots.json",
+          "src/main/java/net/mcreator/test/item/ArmaduraDeSlimeReforcadaItem.java",
+          "src/main/resources/assets/hollow_stuff/models/item/armadura_de_slime_reforcada_chestplate.json",
+          "src/main/resources/assets/hollow_stuff/models/item/armadura_de_slime_reforcada_leggings.json"
+        ]
+      }
+    },
+    {
+      "name": "FullSlimeSet",
+      "type": "procedure",
+      "sortid": 6,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "full_slime_set",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/FullSlimeSetProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SlimeSetLeggies",
+      "type": "recipe",
+      "sortid": 1,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_set_leggies",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hollow_stuff/recipes/slime_set_leggies.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeSetHelmet",
+      "type": "recipe",
+      "sortid": 3,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_set_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hollow_stuff/recipes/slime_set_helmet.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeSetBoots",
+      "type": "recipe",
+      "sortid": 4,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_set_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hollow_stuff/recipes/slime_set_boots.json"
+        ]
+      }
+    },
+    {
+      "name": "SlimeSetChestplate",
+      "type": "recipe",
+      "sortid": 5,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "slime_set_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hollow_stuff/recipes/slime_set_chestplate.json"
+        ]
+      }
+    },
+    {
+      "name": "Casados",
+      "type": "potioneffect",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "casados",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/potion/CasadosMobEffect.java"
+        ]
+      }
+    }
+  ],
+  "variable_elements": [],
+  "sound_elements": [],
+  "language_map": {
+    "en_us": {
+      "item.test.armadura_de_slime_reforcada_leggings": "Armadura De Slime Reforçada",
+      "item.hollow_stuff.armadura_de_slime_reforcada_helmet": "Capacete De Slime Reforçada",
+      "item.hollow_stuff.armadura_de_slime_reforcada_boots": "Botas De Slime Reforçada",
+      "item.test.armadura_de_slime_reforcada_helmet": "Armadura De Slime Reforçada",
+      "item.test.armadura_de_slime_reforcada_chestplate": "Armadura De Slime Reforçada",
+      "item.test.armadura_de_slime_reforcada_boots": "Armadura De Slime Reforçada",
+      "item.hollow_stuff.armadura_de_slime_reforcada_chestplate": "Peitoral De Slime Reforçada",
+      "item.hollow_stuff.armadura_de_slime_reforcada_leggings": "Calça De Slime Reforçada",
+      "effect.hollow_stuff.casados": "Casados"
+    }
+  },
+  "foldersRoot": {
+    "name": "~",
+    "children": []
+  },
+  "workspaceSettings": {
+    "modid": "hollow_stuff",
+    "modName": "Hollow Stuff",
+    "version": "1.0.0",
+    "author": "Chach, MCreator",
+    "websiteURL": "https://mcreator.net",
+    "license": "Academic Free License v3.0",
+    "disableForgeVersionCheck": true,
+    "serverSideOnly": false,
+    "requiredMods": [],
+    "dependencies": [],
+    "dependants": [],
+    "mcreatorDependencies": [
+      "curios_api"
+    ],
+    "currentGenerator": "forge-1.18.2",
+    "credits": "Created using mod maker MCreator - https://mcreator.net/about",
+    "modElementsPackage": "net.mcreator.test",
+    "lockBaseModFiles": false
+  },
+  "mcreatorVersion": 202300110610
+}
