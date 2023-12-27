@@ -1,0 +1,46 @@
+{
+  "_fv": 39,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "recipeRetstackSize": 1,
+    "group": "",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CHAIN"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CHAIN"
+      },
+      {
+        "value": "Blocks.SAPLING#0"
+      },
+      {
+        "value": "Blocks.CHAIN"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "Blocks.CHAIN"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:SolDaMeiaNoite"
+    },
+    "name": "recipe_sol_da_meia_noite",
+    "namespace": "mod"
+  }
+}

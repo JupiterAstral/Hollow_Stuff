@@ -1,0 +1,11 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "fallen_god_spear",
+        "1": ""
+      },
+      "name": "default"
+    }
+  }
+}

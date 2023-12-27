@@ -1,0 +1,7 @@
+{
+  "parent": "hollow_stuff:custom/corruptedmythicblade",
+  "textures": {
+    "0": "hollow_stuff:blocks/corrupted_mythic_blade",
+    "particle": "hollow_stuff:items/sdadsad"
+  }
+}

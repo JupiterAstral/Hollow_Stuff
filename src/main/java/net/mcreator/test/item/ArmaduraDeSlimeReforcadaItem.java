@@ -4,23 +4,27 @@ package net.mcreator.test.item;
 import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.level.block.Blocks;
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
+
+import net.mcreator.test.procedures.FullSlimeSetProcedure;
 
 public abstract class ArmaduraDeSlimeReforcadaItem extends ArmorItem {
 	public ArmaduraDeSlimeReforcadaItem(EquipmentSlot slot, Item.Properties properties) {
 		super(new ArmorMaterial() {
 			@Override
 			public int getDurabilityForSlot(EquipmentSlot slot) {
-				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 25;
+				return new int[]{13, 15, 16, 11}[slot.getIndex()] * 50;
 			}
 
 			@Override
@@ -50,7 +54,7 @@ public abstract class ArmaduraDeSlimeReforcadaItem extends ArmorItem {
 
 			@Override
 			public float getToughness() {
-				return 6f;
+				return 4.89f;
 			}
 
 			@Override
@@ -69,6 +73,11 @@ public abstract class ArmaduraDeSlimeReforcadaItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "hollow_stuff:textures/models/armor/slime_reforcada_layer_1.png";
 		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			FullSlimeSetProcedure.execute(entity);
+		}
 	}
 
 	public static class Chestplate extends ArmaduraDeSlimeReforcadaItem {
@@ -79,6 +88,11 @@ public abstract class ArmaduraDeSlimeReforcadaItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "hollow_stuff:textures/models/armor/slime_reforcada_layer_1.png";
+		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			FullSlimeSetProcedure.execute(entity);
 		}
 	}
 
@@ -91,6 +105,11 @@ public abstract class ArmaduraDeSlimeReforcadaItem extends ArmorItem {
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "hollow_stuff:textures/models/armor/slime_reforcada_layer_2.png";
 		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			FullSlimeSetProcedure.execute(entity);
+		}
 	}
 
 	public static class Boots extends ArmaduraDeSlimeReforcadaItem {
@@ -101,6 +120,11 @@ public abstract class ArmaduraDeSlimeReforcadaItem extends ArmorItem {
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
 			return "hollow_stuff:textures/models/armor/slime_reforcada_layer_1.png";
+		}
+
+		@Override
+		public void onArmorTick(ItemStack itemstack, Level world, Player entity) {
+			FullSlimeSetProcedure.execute(entity);
 		}
 	}
 }

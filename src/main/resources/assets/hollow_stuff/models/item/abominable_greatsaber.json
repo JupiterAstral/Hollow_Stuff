@@ -1,0 +1,7 @@
+{
+  "parent": "hollow_stuff:custom/abominablegreatsaber",
+  "textures": {
+    "0": "hollow_stuff:blocks/abominable_greatsaber",
+    "particle": "hollow_stuff:items/abominable_greatsaber"
+  }
+}

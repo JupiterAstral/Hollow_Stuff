@@ -10,6 +10,18 @@
     "textureLeggings": "slime_reforcada_leggings",
     "enableBoots": true,
     "textureBoots": "slime_reforcada_boots",
+    "onHelmetTick": {
+      "name": "FullSlimeSet"
+    },
+    "onBodyTick": {
+      "name": "FullSlimeSet"
+    },
+    "onLeggingsTick": {
+      "name": "FullSlimeSet"
+    },
+    "onBootsTick": {
+      "name": "FullSlimeSet"
+    },
     "creativeTab": {
       "value": "COMBAT"
     },
@@ -50,13 +62,13 @@
     "bodyImmuneToFire": false,
     "leggingsImmuneToFire": false,
     "bootsImmuneToFire": false,
-    "maxDamage": 25,
+    "maxDamage": 50,
     "damageValueHelmet": 7,
     "damageValueBody": 12,
     "damageValueLeggings": 10,
     "damageValueBoots": 5,
     "enchantability": 9,
-    "toughness": 6.0,
+    "toughness": 4.89,
     "knockbackResistance": 0.6,
     "equipSound": {
       "value": "entity.small_slime.death"

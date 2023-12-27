@@ -1,0 +1,7 @@
+{
+  "parent": "hollow_stuff:custom/cybermantisblade",
+  "textures": {
+    "0": "hollow_stuff:blocks/cyber_mantis_blade",
+    "particle": "hollow_stuff:items/sdadsad"
+  }
+}

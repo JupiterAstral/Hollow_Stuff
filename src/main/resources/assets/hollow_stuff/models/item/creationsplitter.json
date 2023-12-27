@@ -1,0 +1,8 @@
+{
+  "parent": "hollow_stuff:custom/creationsplitter",
+  "textures": {
+    "2": "hollow_stuff:blocks/creationsplitter",
+    "3": "hollow_stuff:blocks/epicfire",
+    "particle": "hollow_stuff:items/sdadsad"
+  }
+}

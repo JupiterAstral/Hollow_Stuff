@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "demonicblade",
+        "2": "demonic_flames",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}

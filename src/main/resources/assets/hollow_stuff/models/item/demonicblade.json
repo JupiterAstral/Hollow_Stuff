@@ -1,0 +1,9 @@
+{
+  "parent": "hollow_stuff:custom/demonicblade",
+  "textures": {
+    "1": "hollow_stuff:blocks/demonicblade",
+    "2": "hollow_stuff:blocks/demonic_flames",
+    "missing": "hollow_stuff:blocks/",
+    "particle": "hollow_stuff:items/sdadsad"
+  }
+}

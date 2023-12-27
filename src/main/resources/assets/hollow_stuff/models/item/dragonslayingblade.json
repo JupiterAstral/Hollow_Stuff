@@ -1,0 +1,7 @@
+{
+  "parent": "hollow_stuff:custom/dragonslayingblade",
+  "textures": {
+    "0": "hollow_stuff:blocks/dragon_slaying_blade1",
+    "particle": "hollow_stuff:items/sdadsad"
+  }
+}

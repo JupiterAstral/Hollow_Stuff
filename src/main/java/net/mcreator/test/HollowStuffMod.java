@@ -26,6 +26,7 @@ import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 
+import net.mcreator.test.init.HollowStuffModTabs;
 import net.mcreator.test.init.HollowStuffModMobEffects;
 import net.mcreator.test.init.HollowStuffModItems;
 
@@ -42,7 +43,7 @@ public class HollowStuffMod {
 	private static int messageID = 0;
 
 	public HollowStuffMod() {
-
+		HollowStuffModTabs.load();
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 
 		HollowStuffModItems.REGISTRY.register(bus);

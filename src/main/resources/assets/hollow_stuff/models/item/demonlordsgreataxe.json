@@ -1,0 +1,7 @@
+{
+  "parent": "hollow_stuff:custom/demonlordsgreataxe",
+  "textures": {
+    "0": "hollow_stuff:blocks/demonlordgreataxe",
+    "particle": "hollow_stuff:items/sdadsad"
+  }
+}

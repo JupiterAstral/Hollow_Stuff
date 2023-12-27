@@ -1,0 +1,63 @@
+{
+  "_fv": 39,
+  "_type": "curiosbauble",
+  "definition": {
+    "renderType": 0,
+    "texture": "pixil-frame-0_3",
+    "customModelName": "Normal",
+    "name": "Aliança da Noite",
+    "rarity": "COMMON",
+    "slotType": "RING",
+    "baubleModel": "Default",
+    "baubleModelTexture": "",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "addSlot": true,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "§6§lEmana um brilho semelhante a luz do §r§f§lLuar.."
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 1,
+    "slotAmount": 1,
+    "curioTick": {
+      "name": "AnelDaNoiteBaubleIsEquipped"
+    },
+    "onEquip": {
+      "name": "AnelDaNoiteBaubleIsEquippedd"
+    },
+    "onUnequip": {
+      "name": "AnelDaNoiteBaubleIsUnequipped"
+    },
+    "isFood": false,
+    "friendlyPigs": false,
+    "enderMask": false,
+    "rotateModel": false,
+    "translateModel": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "hasModel": false,
+    "animation": "none"
+  }
+}

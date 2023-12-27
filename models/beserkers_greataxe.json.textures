@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "1": "berserkers_greataxe"
+      },
+      "name": "default"
+    }
+  }
+}

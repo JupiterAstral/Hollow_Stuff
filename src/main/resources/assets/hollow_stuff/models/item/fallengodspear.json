@@ -1,0 +1,8 @@
+{
+  "parent": "hollow_stuff:custom/fallengodspear",
+  "textures": {
+    "0": "hollow_stuff:blocks/fallen_god_spear",
+    "1": "hollow_stuff:blocks/",
+    "particle": "hollow_stuff:items/sdadsad"
+  }
+}

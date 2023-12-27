@@ -1,0 +1,63 @@
+{
+  "_fv": 39,
+  "_type": "curiosbauble",
+  "definition": {
+    "renderType": 0,
+    "texture": "pixil-frame-0_5",
+    "customModelName": "Normal",
+    "name": "Alianca Da Natureza",
+    "rarity": "COMMON",
+    "slotType": "RING",
+    "baubleModel": "Default",
+    "baubleModelTexture": "",
+    "creativeTab": {
+      "value": "COMBAT"
+    },
+    "stackSize": 1,
+    "enchantability": 0,
+    "useDuration": 0,
+    "toolType": 1.0,
+    "damageCount": 0,
+    "recipeRemainder": {
+      "value": ""
+    },
+    "destroyAnyBlock": false,
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "enableMeleeDamage": false,
+    "addSlot": false,
+    "damageVsEntity": 0.0,
+    "specialInfo": [
+      "§a§lÉ envolto por vinhas e possui um leve aroma de §R§f§lFlores §r§a§lpareçe soltar pequenas partículas em volta de si."
+    ],
+    "hasGlow": false,
+    "guiBoundTo": "<NONE>",
+    "inventorySize": 9,
+    "inventoryStackSize": 1,
+    "slotAmount": 1,
+    "curioTick": {
+      "name": "NaturezaEffect"
+    },
+    "onEquip": {
+      "name": "EquipNatureza"
+    },
+    "onUnequip": {
+      "name": "UnequipNatureza"
+    },
+    "isFood": false,
+    "friendlyPigs": false,
+    "enderMask": false,
+    "rotateModel": false,
+    "translateModel": false,
+    "nutritionalValue": 4,
+    "saturation": 0.3,
+    "eatResultItem": {
+      "value": ""
+    },
+    "isMeat": false,
+    "isAlwaysEdible": false,
+    "hasModel": false,
+    "animation": "none"
+  }
+}

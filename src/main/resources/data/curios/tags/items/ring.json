@@ -1,0 +1,9 @@
+{
+  "replace": "false",
+  "values": [
+    "minecraft:air",
+    "hollow_stuff:anel_da_noite",
+    "hollow_stuff:aliaca_de_carne",
+    "hollow_stuff:alianca_da_natureza"
+  ]
+}

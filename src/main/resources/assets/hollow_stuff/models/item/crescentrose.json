@@ -1,0 +1,7 @@
+{
+  "parent": "hollow_stuff:custom/crescentrose",
+  "textures": {
+    "0": "hollow_stuff:blocks/crescent_rose",
+    "particle": "hollow_stuff:items/sdadsad"
+  }
+}

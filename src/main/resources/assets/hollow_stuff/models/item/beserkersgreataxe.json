@@ -1,0 +1,7 @@
+{
+  "parent": "hollow_stuff:custom/beserkers_greataxe",
+  "textures": {
+    "1": "hollow_stuff:blocks/berserkers_greataxe",
+    "particle": "hollow_stuff:items/sdadsad"
+  }
+}

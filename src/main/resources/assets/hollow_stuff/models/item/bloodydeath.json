@@ -1,0 +1,9 @@
+{
+  "parent": "hollow_stuff:custom/bloodydeath",
+  "textures": {
+    "0": "hollow_stuff:blocks/bloodydeath",
+    "1": "hollow_stuff:blocks/bloody_blood",
+    "missing": "hollow_stuff:blocks/",
+    "particle": "hollow_stuff:items/sdadsad"
+  }
+}

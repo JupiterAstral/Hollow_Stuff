@@ -1,0 +1,7 @@
+{
+  "parent": "hollow_stuff:custom/divinepunisher",
+  "textures": {
+    "0": "hollow_stuff:blocks/divine_punisher",
+    "particle": "hollow_stuff:items/sdadsad"
+  }
+}

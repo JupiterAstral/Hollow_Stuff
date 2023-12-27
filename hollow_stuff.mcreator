@@ -99,26 +99,557 @@
           "src/main/java/net/mcreator/test/potion/CasadosMobEffect.java"
         ]
       }
+    },
+    {
+      "name": "AnelDaNoite",
+      "type": "curiosbauble",
+      "sortid": 8,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anel_da_noite",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hollow_stuff/models/item/anel_da_noite.json",
+          "src/main/java/net/mcreator/test/item/AnelDaNoiteItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AnelDaNoiteBaubleIsEquipped",
+      "type": "procedure",
+      "sortid": 9,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anel_da_noite_bauble_is_equipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/AnelDaNoiteBaubleIsEquippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnelDaNoiteBaubleIsEquippedd",
+      "type": "procedure",
+      "sortid": 10,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anel_da_noite_bauble_is_equippedd",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/AnelDaNoiteBaubleIsEquippeddProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AnelDaNoiteBaubleIsUnequipped",
+      "type": "procedure",
+      "sortid": 11,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anel_da_noite_bauble_is_unequipped",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/AnelDaNoiteBaubleIsUnequippedProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AliacaDeCarne",
+      "type": "curiosbauble",
+      "sortid": 12,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aliaca_de_carne",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hollow_stuff/models/item/aliaca_de_carne.json",
+          "src/main/java/net/mcreator/test/item/AliacaDeCarneItem.java"
+        ]
+      }
+    },
+    {
+      "name": "AnelDeCarne",
+      "type": "procedure",
+      "sortid": 13,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "anel_de_carne",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/AnelDeCarneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EquipCarne",
+      "type": "procedure",
+      "sortid": 14,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "equip_carne",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/EquipCarneProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "Unequip",
+      "type": "procedure",
+      "sortid": 15,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unequip",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/UnequipProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "AliancaDaNatureza",
+      "type": "curiosbauble",
+      "sortid": 16,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alianca_da_natureza",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/AliancaDaNaturezaItem.java",
+          "src/main/resources/assets/hollow_stuff/models/item/alianca_da_natureza.json"
+        ]
+      }
+    },
+    {
+      "name": "NaturezaEffect",
+      "type": "procedure",
+      "sortid": 17,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "natureza_effect",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/NaturezaEffectProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "EquipNatureza",
+      "type": "procedure",
+      "sortid": 18,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "equip_natureza",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/EquipNaturezaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "UnequipNatureza",
+      "type": "procedure",
+      "sortid": 19,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "unequip_natureza",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/UnequipNaturezaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "SolDaMeiaNoite",
+      "type": "curiosbauble",
+      "sortid": 20,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sol_da_meia_noite",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/SolDaMeiaNoiteItem.java",
+          "src/main/resources/assets/hollow_stuff/models/item/sol_da_meia_noite.json"
+        ]
+      }
+    },
+    {
+      "name": "SolDaMeiaNoiteWhileBaubleIsEquippedTick",
+      "type": "procedure",
+      "sortid": 21,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sol_da_meia_noite_while_bauble_is_equipped_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/procedures/SolDaMeiaNoiteWhileBaubleIsEquippedTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      }
+    },
+    {
+      "name": "RecipeSolDaMeiaNoite",
+      "type": "recipe",
+      "sortid": 22,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "recipe_sol_da_meia_noite",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/hollow_stuff/recipes/recipe_sol_da_meia_noite.json"
+        ]
+      }
+    },
+    {
+      "name": "HollowSwords",
+      "type": "tab",
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "hollow_swords",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "AbominableGreatsaber",
+      "type": "tool",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abominable_greatsaber",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hollow_stuff/models/item/abominable_greatsaber.json",
+          "src/main/java/net/mcreator/test/item/AbominableGreatsaberItem.java"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "AbominableScythe",
+      "type": "tool",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "abominable_scythe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/AbominableScytheItem.java",
+          "src/main/resources/assets/hollow_stuff/models/item/abominable_scythe.json"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "Aciddemon",
+      "type": "tool",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "aciddemon",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/AciddemonItem.java",
+          "src/main/resources/assets/hollow_stuff/models/item/aciddemon.json"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "Bloodydeath",
+      "type": "tool",
+      "sortid": 26,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bloodydeath",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hollow_stuff/models/item/bloodydeath.json",
+          "src/main/java/net/mcreator/test/item/BloodydeathItem.java"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "Corruptedmythicblade",
+      "type": "tool",
+      "sortid": 27,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "corruptedmythicblade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hollow_stuff/models/item/corruptedmythicblade.json",
+          "src/main/java/net/mcreator/test/item/CorruptedmythicbladeItem.java"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "Creationsplitter",
+      "type": "tool",
+      "sortid": 28,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "creationsplitter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/CreationsplitterItem.java",
+          "src/main/resources/assets/hollow_stuff/models/item/creationsplitter.json"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "Crescentrose",
+      "type": "tool",
+      "sortid": 29,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crescentrose",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hollow_stuff/models/item/crescentrose.json",
+          "src/main/java/net/mcreator/test/item/CrescentroseItem.java"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "Cybermantisblade",
+      "type": "tool",
+      "sortid": 30,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cybermantisblade",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/CybermantisbladeItem.java",
+          "src/main/resources/assets/hollow_stuff/models/item/cybermantisblade.json"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "Demonicblade",
+      "type": "tool",
+      "sortid": 31,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonicblade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hollow_stuff/models/item/demonicblade.json",
+          "src/main/java/net/mcreator/test/item/DemonicbladeItem.java"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "Demonlordsgreataxe",
+      "type": "tool",
+      "sortid": 32,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "demonlordsgreataxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/DemonlordsgreataxeItem.java",
+          "src/main/resources/assets/hollow_stuff/models/item/demonlordsgreataxe.json"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "Divinepunisher",
+      "type": "tool",
+      "sortid": 33,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "divinepunisher",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hollow_stuff/models/item/divinepunisher.json",
+          "src/main/java/net/mcreator/test/item/DivinepunisherItem.java"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "Dragonslayingblade",
+      "type": "tool",
+      "sortid": 34,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragonslayingblade",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hollow_stuff/models/item/dragonslayingblade.json",
+          "src/main/java/net/mcreator/test/item/DragonslayingbladeItem.java"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "Fallengodspear",
+      "type": "tool",
+      "sortid": 35,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fallengodspear",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/hollow_stuff/models/item/fallengodspear.json",
+          "src/main/java/net/mcreator/test/item/FallengodspearItem.java"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "Beserkersgreataxe",
+      "type": "tool",
+      "sortid": 36,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beserkersgreataxe",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/BeserkersgreataxeItem.java",
+          "src/main/resources/assets/hollow_stuff/models/item/beserkersgreataxe.json"
+        ]
+      },
+      "path": "~/Armas"
+    },
+    {
+      "name": "Screationsplitter",
+      "type": "tool",
+      "sortid": 37,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "screationsplitter",
+      "metadata": {
+        "files": [
+          "src/main/java/net/mcreator/test/item/ScreationsplitterItem.java",
+          "src/main/resources/assets/hollow_stuff/models/item/screationsplitter.json"
+        ]
+      },
+      "path": "~/Armas"
     }
   ],
   "variable_elements": [],
   "sound_elements": [],
   "language_map": {
     "en_us": {
-      "item.test.armadura_de_slime_reforcada_leggings": "Armadura De Slime Reforçada",
       "item.hollow_stuff.armadura_de_slime_reforcada_helmet": "Capacete De Slime Reforçada",
-      "item.hollow_stuff.armadura_de_slime_reforcada_boots": "Botas De Slime Reforçada",
       "item.test.armadura_de_slime_reforcada_helmet": "Armadura De Slime Reforçada",
-      "item.test.armadura_de_slime_reforcada_chestplate": "Armadura De Slime Reforçada",
-      "item.test.armadura_de_slime_reforcada_boots": "Armadura De Slime Reforçada",
+      "itemGroup.tabhollow_swords": "Hollow Swords",
+      "item.hollow_stuff.creationsplitter": "§5§lCreation §4§lSplitter",
+      "effect.hollow_stuff.casados": "Casados",
+      "item.hollow_stuff.divinepunisher": "§6Divine Punisher",
+      "item.hollow_stuff.abominable_greatsaber": "§5Abominable Greatsaber",
+      "item.hollow_stuff.cybermantisblade": "§bCybermantis Blade",
+      "item.hollow_stuff.screationsplitter": "§5§lCreation §4§lSplitter",
+      "item.hollow_stuff.corruptedmythicblade": "§cCorrupted Mythicblade",
+      "item.test.armadura_de_slime_reforcada_leggings": "Armadura De Slime Reforçada",
+      "item.hollow_stuff.demonicblade": "§4Demonic Blade",
+      "item.hollow_stuff.armadura_de_slime_reforcada_boots": "Botas De Slime Reforçada",
+      "item.hollow_stuff.bloodydeath": "§4Bloody Death",
+      "item.hollow_stuff.fallengodspear": "§4Fallen God Spear",
+      "item.hollow_stuff.anel_da_noite": "Aliança da Noite",
       "item.hollow_stuff.armadura_de_slime_reforcada_chestplate": "Peitoral De Slime Reforçada",
+      "item.test.armadura_de_slime_reforcada_boots": "Armadura De Slime Reforçada",
       "item.hollow_stuff.armadura_de_slime_reforcada_leggings": "Calça De Slime Reforçada",
-      "effect.hollow_stuff.casados": "Casados"
+      "item.hollow_stuff.aciddemon": "§2Aciddemon",
+      "item.hollow_stuff.alianca_da_natureza": "Alianca Da Natureza",
+      "item.hollow_stuff.beserkersgreataxe": "§4§lBeserkers Greataxe",
+      "item.hollow_stuff.aliaca_de_carne": "Aliaça De Carne",
+      "item.hollow_stuff.sol_da_meia_noite": "Sol Da Meia Noite",
+      "item.hollow_stuff.crescentrose": "§4Crescentrose",
+      "item.hollow_stuff.demonlordsgreataxe": "Demonlords Great Axe",
+      "item.test.armadura_de_slime_reforcada_chestplate": "Armadura De Slime Reforçada",
+      "item.hollow_stuff.abominable_scythe": "§5Abominable Scythe",
+      "item.hollow_stuff.dragonslayingblade": "§4Dragonslaying Blade"
     }
   },
   "foldersRoot": {
     "name": "~",
-    "children": []
+    "children": [
+      {
+        "name": "Armas",
+        "children": []
+      }
+    ]
   },
   "workspaceSettings": {
     "modid": "hollow_stuff",

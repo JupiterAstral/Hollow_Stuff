@@ -1,0 +1,12 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "bloodydeath",
+        "1": "bloody_blood",
+        "missing": ""
+      },
+      "name": "default"
+    }
+  }
+}
